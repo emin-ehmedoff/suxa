@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Сухофрукты Сертолово</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Сухофрукты Сертолово</h1>
+<p>Онлайн заказ с доставкой по Сертолово</p>
+
+<div class="product">
+  <h3>Смесь сухофруктов (500 г)</h3>
+  <p>Цена: 500 ₽</p>
+  <button onclick="addToCart('Смесь сухофруктов 500г', 500)">В корзину</button>
+</div>
+
+<div class="product">
+  <h3>Курага (250 г)</h3>
+  <p>Цена: 300 ₽</p>
+  <button onclick="addToCart('Курага 250г', 300)">В корзину</button>
+</div>
+
+<h2>Корзина</h2>
+<ul id="cart"></ul>
+<p><b>Итого: <span id="total">0</span> ₽</b></p>
+
+<h2>Оформить заказ</h2>
+<input id="name" placeholder="Ваше имя"><br>
+<input id="phone" placeholder="Телефон"><br>
+<input id="address" placeholder="Адрес (Сертолово)"><br>
+<textarea id="comment" placeholder="Комментарий"></textarea><br>
+<button onclick="sendOrder()">Отправить заказ</button>
+
+<script src="script.js"></script>
+</body>
+</html>
