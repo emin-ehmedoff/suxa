@@ -40,7 +40,7 @@ function sendOrder() {
   orderText += "\n📝 Комментарий: " + comment;
 
   // 🔴 BURANI DƏYİŞ
-  const BOT_TOKEN = "PASTE_BOT_TOKEN_HERE";
+  const BOT_TOKEN = "8489426660:AAFZxuuUJqy55ccYUlnwuiTYXMpsBCk2Qsk";
   const CHAT_ID = "@Sekard5";
 
   fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
